@@ -18,7 +18,6 @@
     "homepage": "https://github.com/Mor-s-organization/misconfiguration-check#readme",
     "dependencies": {
         "axios": "0.21.1",
-        "http-cache-semantics": "4.1.0",
         "lodash": "4.16.0"
     }
 }
