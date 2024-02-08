@@ -1,0 +1,24 @@
+{
+    "name": "mor",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Mor-s-organization/misconfiguration-check.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Mor-s-organization/misconfiguration-check/issues"
+    },
+    "homepage": "https://github.com/Mor-s-organization/misconfiguration-check#readme",
+    "dependencies": {
+        "axios": "0.21.1",
+        "http-cache-semantics": "4.1.0",
+        "lodash": "4.16.0"
+    }
+}
