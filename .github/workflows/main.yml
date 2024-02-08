@@ -17,7 +17,7 @@ jobs:
       - name: Run Aqua scanner
         uses: docker://aquasec/aqua-scanner
         with:
-          args: trivy fs --package-json --scanners vuln,config,secret --sast .
+          args: trivy fs --package-json --rachability --scanners vuln,config,secret --sast .
     
         env:
           AQUA_KEY: ${{ secrets.AQUA_KEY }}
